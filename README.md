@@ -1,10 +1,21 @@
-# Getting Started with Create React App
+# React app for https://gavin.software created by Gavin Watson
+# watson@gavin.software
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+# Project Branches
+
+This project is uploaded to https://github.com/gkwatson/gkwatson.github.io
+The source code is kept on the src branch while the build is deployed to the main branch where it is served by GitHub pages.
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm run deploy`
+
+The app is committed to the src branch of the GitHub pages repository. It is then automatically deployed to https://gavin.software
+If a commit message for the src branch is desired, it can be done with the -m flag like `npm run deploy -- -m "Custom commit message"`
 
 ### `npm start`
 
